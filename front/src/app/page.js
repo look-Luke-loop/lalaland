@@ -27,7 +27,7 @@ export default function Home() {
     };
 
     try {
-      const response = await axios.post('http://localhost:3001/users', data, headers);
+      const response = await axios.post('http://18.118.147.71:3001/users', data, headers);
       setMessage(response.data.message);
       setData({
         name: '',
@@ -41,7 +41,7 @@ export default function Home() {
 
   const fetchUsers = async () => {
     try {
-      const response = await axios.get('http://localhost:3001/userlist');
+      const response = await axios.get('http://18.118.147.71:3001/userlist');
       if (Array.isArray(response.data.users)) {
         setUsers(response.data.users);
       } else {
