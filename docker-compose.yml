@@ -18,7 +18,7 @@ services:
     ports:
       - "3000:3000"
     depends_on:
-      - backend
+      - api
 
   mysql:
     image: mysql:5.7
