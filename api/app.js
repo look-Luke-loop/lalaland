@@ -26,5 +26,5 @@ app.use('/', users)
 
 
 app.listen(8080, () => {
-    console.log("tamo rodando filé!!!(porta 8080)")
+    console.log("tamo rodando filé!!!(porta 3001)")
 });
