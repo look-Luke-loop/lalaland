@@ -89,7 +89,7 @@ export default function Home() {
           <table border="1">
             <thead>
               <tr>
-                <th>ID</th>
+                <th>UID</th>
                 <th>Nome</th>
                 <th>Email</th>
               </tr>
